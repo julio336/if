@@ -25,7 +25,7 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg', '0.12.2'
   gem 'thin'
 end
 
